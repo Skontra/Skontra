@@ -1,0 +1,5 @@
+a = int(input("unesi broj sekundi:"))
+bd,ost1=divmod(a,86400)
+bs,ost2=divmod(ost1,3600)
+bm,bsek=divmod(ost2,60)
+print("%d sekundi je = %d dana, %d sata, %d minuta, %d sekunde." %(a,bd,bs,bm,bsek))
