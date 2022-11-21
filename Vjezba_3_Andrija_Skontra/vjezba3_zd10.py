@@ -1,0 +1,15 @@
+ns = str(input("Unesi nekih 5 slova : "))
+a = id(ns[0])
+b = id(ns[1])
+c = id(ns[2])
+d = id(ns[3])
+e = id(ns[4])
+if a == e and b == d:
+    print('\033[1m' + "\033[1;33mOva slova tvore palindrom" + '\033[0m')
+else:
+    print('\033[1m' + "\033[1;37mOva slova ne tvore palindrom." + '\033[0m')
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)

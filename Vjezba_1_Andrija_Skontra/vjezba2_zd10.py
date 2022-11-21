@@ -1,0 +1,6 @@
+x = int(input("Unesi peteroznamenkasti cijeli broj: "))
+b1 , ost1 = divmod(x,10000)
+b2, ost2 = divmod(ost1,1000)
+b3, ost3 = divmod(ost2, 100)
+b4,b5=divmod(ost3,10)
+print("Zbroj svih njehovig znamenki je: ",b1+b2+b3+b4+b5)
