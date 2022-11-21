@@ -1,0 +1,12 @@
+a = str(input("Unesi prvo ime: "))
+b = str(input("Unesi drugo ime: "))
+c = str(input("Unesi trece ime: "))
+d = str(input("Unesi cetvrto ime: "))
+e = str(input("Unesi peto ime: "))
+lista = [a,b,c,d,e]
+lista.sort(reverse=False)
+print(lista[0])
+print(lista[1])
+print(lista[2])
+print(lista[3])
+print(lista[4])
